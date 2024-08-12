@@ -6,11 +6,11 @@ const Card = ({ img, head, information }) => {
 
 
             <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-900 dark:border-gray-700">
-                <a href="#">
+                <a href="https://learners-way.vercel.app/">
                     <img className="rounded-t-lg w-full h-64 object-contain" src={img} alt="" />
                 </a>
                 <div className="p-5">
-                    <a href="#">
+                    <a href="https://turbo-typer.netlify.app/">
                         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"> {head} </h5>
                     </a>
                     <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">{information}</p>
