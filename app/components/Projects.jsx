@@ -33,7 +33,7 @@ Reduced manual recordkeeping."
                     img="/project5.png"
                     head="Video Stream App"
                     information="A Realtime Video streaming app where users can video call , chat and share files with each other. The app is built using Next.js, Socket.io and WebRTC."
-                    link="https://video-stream-app-five.vercel.app/"
+                    link="https://videomeet-murex.vercel.app/"
                     code="https://github.com/adilsyed003/VideoStreamApp"
                 />
 

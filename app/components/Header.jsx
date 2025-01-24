@@ -83,7 +83,7 @@ function Navbar({ className }) {
                         />
                         <ProductItem
                             title="Video Streaming App"
-                            href="https://video-stream-app-five.vercel.app/"
+                            href="https://videomeet-murex.vercel.app/"
                             src="/project5.png"
                             description="A Realtime Video streaming app where users can video call , chat and share files"
                         />
