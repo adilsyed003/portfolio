@@ -19,7 +19,7 @@ export default function Home() {
       <div className="relative z-[10] mx-8">
         <Header />
         <div className='min-h-screen flex justify-center items-center'>
-          {/* <Intro /> */}
+
           <HeroHighlightDemo />
 
         </div>

@@ -30,7 +30,7 @@ Reduced manual recordkeeping."
             </div>
             <div className='flex flex-col md:flex-row gap-4 mx-10 mt-3 justify-around'>
                 <Card
-                    img="/project1.png"
+                    img="/project5.png"
                     head="Video Stream App"
                     information="A Realtime Video streaming app where users can video call , chat and share files with each other. The app is built using Next.js, Socket.io and WebRTC."
                     link="https://video-stream-app-five.vercel.app/"
@@ -38,7 +38,7 @@ Reduced manual recordkeeping."
                 />
 
                 <Card
-                    img="/project3.png"
+                    img="/project6.png"
                     head="Glider UI"
                     information=" Gilder UI is a modern, responsive, and customizable UI library for React.js and Next js. The library offers a wide range of components, including buttons, modals, and sliders."
 

@@ -7,35 +7,11 @@ import { cn } from "@/lib/utils";
 const Header = ({ scrollToSection, sections }) => {
 
 
-    // return (
-    //     <>
-    //         <header >
-    //             <nav className='text-slate-200 flex justify-around m-4 items-center sticky top-0 z-10 bg-inherit shadow-sm'>
-    //                 <h1 className='text-2xl font-bold'>Adil's Portfolio</h1>
-    //                 <ul className='flex flex-row gap-6 '>
-    //                     <li>
-    //                         <a href='#home'>Home</a>
-    //                     </li>
-    //                     <li>
-    //                         <a href='#about'>About</a>
-    //                     </li>
-    //                     <li>
-    //                         <a href='#projects'>Projects</a>
-    //                     </li>
-    //                     <li>
-    //                         <a href='#tech'>Tech</a>
-    //                     </li>
-    //                 </ul>
-    //                 <Links />
-    //             </nav>
-    //             <hr className=' opacity-50'></hr>
-    //         </header>
-    //     </>
-    // )
+
 
     return (
         <div className="relative w-full">
-            <nav className="flex  flex-col sm:flex-row justify-center sm:gap-10 md:gap-36  items-center sticky top-0 bg-inherit shadow-sm p-4 z-10">
+            <nav className="flex  flex-col sm:flex-row justify-center gap-6  sm:gap-10 md:gap-36  items-center sticky top-0 bg-inherit shadow-sm p-4 z-10">
                 <div>
                     <h1 className="text-2xl font-bold">Adil's Portfolio</h1>
                 </div>
@@ -86,7 +62,7 @@ function Navbar({ className }) {
                     </div>
                 </MenuItem>
                 <MenuItem setActive={setActive} active={active} item="Projects">
-                    <div className="text-sm grid grid-cols-2 gap-10 p-4">
+                    <div className="text-sm grid sm:grid-cols-2 gap-10 p-4">
                         <ProductItem
                             title="Learner's way"
                             href="https://learners-way.vercel.app/"
@@ -108,7 +84,7 @@ function Navbar({ className }) {
                         <ProductItem
                             title="Video Streaming App"
                             href="https://video-stream-app-five.vercel.app/"
-                            src="/project3.png"
+                            src="/project5.png"
                             description="A Realtime Video streaming app where users can video call , chat and share files"
                         />
                     </div>
