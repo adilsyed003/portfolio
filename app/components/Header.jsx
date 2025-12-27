@@ -64,29 +64,37 @@ function Navbar({ className }) {
                 <MenuItem setActive={setActive} active={active} item="Projects">
                     <div className="text-sm grid sm:grid-cols-2 gap-10 p-4">
                         <ProductItem
-                            title="Learner's way"
-                            href="https://learners-way.vercel.app/"
-                            src="/project1.png"
-                            description="Online platform offering a vast collection of free content for developers enhance their skills."
+                            title="Web Cursor AI"
+                            href="https://web-cursor-ai.netlify.app/"
+                            src="/new1.png"
+                            description="Web Cursor AI is a AI based No Code website generation platform. Create a functional website with a single prompt."
                         />
                         <ProductItem
-                            title="Turbo Typer"
-                            href="https://turbo-typer.netlify.app/"
-                            src="/project2.png"
-                            description="Online game designed to help users improve their typing speed and accuracy"
+                            title="Skelo LMS"
+                            href="https://lms-neon-six-33.vercel.app/"
+                            src="/new22.png"
+                            description="Smart Cloud Native Learning Management System for creating and managing educational courses efficiently."
                         />
                         <ProductItem
-                            title="PernHen"
-                            href="https://birnihigo.vercel.app/"
-                            src="/project4.png"
-                            description="A Online solution for poultry farms to manage their Hen's feed and health"
+                            title="Cater Ease"
+                            href="https://cater-ease-one.vercel.app/"
+                            src="/new23.png"
+                            description="Catering management platform to streamline event planning and food service operations."
                         />
                         <ProductItem
-                            title="Video Streaming App"
-                            href="https://videomeet-murex.vercel.app/"
-                            src="/project5.png"
-                            description="A Realtime Video streaming app where users can video call , chat and share files"
+                            title="Valid Mail"
+                            href="https://valid-mail.vercel.app/"
+                            src="/new3.png"
+                            description="Tool for verifying email addresses to ensure they are valid and active or temporary."
                         />
+                    </div>
+                    <div className="flex justify-end mt-2">
+                        <a href="#projects" className="flex items-center text-blue-500 hover:underline font-medium group">
+                            View All Projects
+                            <svg className="ml-1 group-hover:translate-x-1 transition-transform" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
+                            </svg>
+                        </a>
                     </div>
                 </MenuItem>
                 <MenuItem setActive={setActive} active={active} item="Sections">
